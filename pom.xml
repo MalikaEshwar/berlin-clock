@@ -70,6 +70,15 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+<repositoryManagement>
+    <id>deployment</id>
+    <name>nexus release time</name>
+    <url>http://13.126.31.251:8081/repository/Sampl_rel/</url>
+    <snapshotRepository>
+    <id>deployment</id>
+    <name>nexus snapshot</name>
+    <url>http://13.126.31.251:8081/repository/sampl_snap/</url>        
+    </snapshotRepository>
+</repositoryManagement>
 
-
-</project>
+    </project>
