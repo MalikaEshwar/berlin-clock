@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <build>
+    <build
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -23,8 +23,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin>
-        </plugins>
+            </plugin>        </plugins>
 
         <pluginManagement>
             <plugins>
@@ -70,7 +69,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-<repositoryManagement>
+<distributionManagement>
     <id>deployment</id>
     <name>nexus release time</name>
     <url>http://13.126.31.251:8081/repository/Sampl_rel/</url>
@@ -79,6 +78,6 @@
     <name>nexus snapshot</name>
     <url>http://13.126.31.251:8081/repository/sampl_snap/</url>        
     </snapshotRepository>
-</repositoryManagement>
+</distributionManagement>
 
     </project>
